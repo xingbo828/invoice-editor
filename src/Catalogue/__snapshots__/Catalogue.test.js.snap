@@ -1,0 +1,775 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Catalogue
+    handleCheckout={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef
+          centered={true}
+          size="md"
+          wrapperTag="h1"
+        >
+          Product catalogue
+        </ForwardRef>,
+        <ForwardRef>
+          <Connect(withHandlers(Product))
+            productDetail={
+              Object {
+                "id": "sofa",
+                "image": "https://hips.hearstapps.com/edc.h-cdn.co/assets/16/38/blue-sofa-joybird_1.jpg",
+                "price": 325,
+                "title": "Sofa",
+              }
+            }
+            unit="Quantity"
+          />
+          <Connect(withHandlers(Product))
+            productDetail={
+              Object {
+                "id": "dishwasher",
+                "image": "https://www.ikea.com/ca/en/images/products/lagan-built-in-dishwasher-white__0539685_PE653659_S4.JPG",
+                "price": 799,
+                "title": "Dishwasher",
+              }
+            }
+            unit="Quantity"
+          />
+          <Connect(withHandlers(Product))
+            productDetail={
+              Object {
+                "id": "washing_machine",
+                "image": "http://www.washing-machine-wizard.com/images/frigidaire-faqe7077kn-affinity-frontloader-electric-dryer-washing-machine-70-cubic-feet-21486932.jpg",
+                "price": 589,
+                "title": "Washing Machine",
+              }
+            }
+            unit="Quantity"
+          />
+          <Connect(withHandlers(Product))
+            productDetail={
+              Object {
+                "id": "refrigerator",
+                "image": "https://www.ikea.com/ca/en/images/products/lagan-top-freezer-white__0530524_PE646734_S4.JPG",
+                "price": 650,
+                "title": "Refrigerator",
+              }
+            }
+            unit="Quantity"
+          />
+          <Connect(withHandlers(Product))
+            productDetail={
+              Object {
+                "id": "tv",
+                "image": "https://thegoodguys.sirv.com/products/50047364/50047364_508160.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true",
+                "price": 1200,
+                "title": "Television",
+              }
+            }
+            unit="Quantity"
+          />
+          <Connect(withHandlers(Product))
+            productDetail={
+              Object {
+                "id": "deep_freezere",
+                "image": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12353/12353893.jpg",
+                "price": 425,
+                "title": "Deep Freezer",
+              }
+            }
+            unit="Quantity"
+          />
+        </ForwardRef>,
+        <Button
+          onClick={[Function]}
+          squared={false}
+          style={
+            Object {
+              "float": "right",
+            }
+          }
+        >
+          Checkout
+        </Button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "centered": true,
+          "children": "Product catalogue",
+          "size": "md",
+          "wrapperTag": "h1",
+        },
+        "ref": null,
+        "rendered": "Product catalogue",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "WithTheme(MarketingHeading)",
+          "render": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "sofa",
+                  "image": "https://hips.hearstapps.com/edc.h-cdn.co/assets/16/38/blue-sofa-joybird_1.jpg",
+                  "price": 325,
+                  "title": "Sofa",
+                }
+              }
+              unit="Quantity"
+            />,
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "dishwasher",
+                  "image": "https://www.ikea.com/ca/en/images/products/lagan-built-in-dishwasher-white__0539685_PE653659_S4.JPG",
+                  "price": 799,
+                  "title": "Dishwasher",
+                }
+              }
+              unit="Quantity"
+            />,
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "washing_machine",
+                  "image": "http://www.washing-machine-wizard.com/images/frigidaire-faqe7077kn-affinity-frontloader-electric-dryer-washing-machine-70-cubic-feet-21486932.jpg",
+                  "price": 589,
+                  "title": "Washing Machine",
+                }
+              }
+              unit="Quantity"
+            />,
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "refrigerator",
+                  "image": "https://www.ikea.com/ca/en/images/products/lagan-top-freezer-white__0530524_PE646734_S4.JPG",
+                  "price": 650,
+                  "title": "Refrigerator",
+                }
+              }
+              unit="Quantity"
+            />,
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "tv",
+                  "image": "https://thegoodguys.sirv.com/products/50047364/50047364_508160.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true",
+                  "price": 1200,
+                  "title": "Television",
+                }
+              }
+              unit="Quantity"
+            />,
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "deep_freezere",
+                  "image": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12353/12353893.jpg",
+                  "price": 425,
+                  "title": "Deep Freezer",
+                }
+              }
+              unit="Quantity"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "sofa",
+            "nodeType": "class",
+            "props": Object {
+              "productDetail": Object {
+                "id": "sofa",
+                "image": "https://hips.hearstapps.com/edc.h-cdn.co/assets/16/38/blue-sofa-joybird_1.jpg",
+                "price": 325,
+                "title": "Sofa",
+              },
+              "unit": "Quantity",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "dishwasher",
+            "nodeType": "class",
+            "props": Object {
+              "productDetail": Object {
+                "id": "dishwasher",
+                "image": "https://www.ikea.com/ca/en/images/products/lagan-built-in-dishwasher-white__0539685_PE653659_S4.JPG",
+                "price": 799,
+                "title": "Dishwasher",
+              },
+              "unit": "Quantity",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "washing_machine",
+            "nodeType": "class",
+            "props": Object {
+              "productDetail": Object {
+                "id": "washing_machine",
+                "image": "http://www.washing-machine-wizard.com/images/frigidaire-faqe7077kn-affinity-frontloader-electric-dryer-washing-machine-70-cubic-feet-21486932.jpg",
+                "price": 589,
+                "title": "Washing Machine",
+              },
+              "unit": "Quantity",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "refrigerator",
+            "nodeType": "class",
+            "props": Object {
+              "productDetail": Object {
+                "id": "refrigerator",
+                "image": "https://www.ikea.com/ca/en/images/products/lagan-top-freezer-white__0530524_PE646734_S4.JPG",
+                "price": 650,
+                "title": "Refrigerator",
+              },
+              "unit": "Quantity",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "tv",
+            "nodeType": "class",
+            "props": Object {
+              "productDetail": Object {
+                "id": "tv",
+                "image": "https://thegoodguys.sirv.com/products/50047364/50047364_508160.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true",
+                "price": 1200,
+                "title": "Television",
+              },
+              "unit": "Quantity",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "deep_freezere",
+            "nodeType": "class",
+            "props": Object {
+              "productDetail": Object {
+                "id": "deep_freezere",
+                "image": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12353/12353893.jpg",
+                "price": 425,
+                "title": "Deep Freezer",
+              },
+              "unit": "Quantity",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-VigVT",
+            "isStatic": false,
+            "rules": Array [
+              "
+  margin: ",
+              [Function],
+              " 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.ul",
+          "render": [Function],
+          "styledComponentId": "sc-VigVT",
+          "target": "ul",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Checkout",
+          "onClick": [Function],
+          "squared": false,
+          "style": Object {
+            "float": "right",
+          },
+        },
+        "ref": null,
+        "rendered": "Checkout",
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-fjdhpX",
+        "isStatic": false,
+        "rules": Array [
+          "
+  padding: ",
+          [Function],
+          ";
+  margin: ",
+          [Function],
+          ";
+  ",
+          [Function],
+          "
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "render": [Function],
+      "styledComponentId": "sc-fjdhpX",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef
+            centered={true}
+            size="md"
+            wrapperTag="h1"
+          >
+            Product catalogue
+          </ForwardRef>,
+          <ForwardRef>
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "sofa",
+                  "image": "https://hips.hearstapps.com/edc.h-cdn.co/assets/16/38/blue-sofa-joybird_1.jpg",
+                  "price": 325,
+                  "title": "Sofa",
+                }
+              }
+              unit="Quantity"
+            />
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "dishwasher",
+                  "image": "https://www.ikea.com/ca/en/images/products/lagan-built-in-dishwasher-white__0539685_PE653659_S4.JPG",
+                  "price": 799,
+                  "title": "Dishwasher",
+                }
+              }
+              unit="Quantity"
+            />
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "washing_machine",
+                  "image": "http://www.washing-machine-wizard.com/images/frigidaire-faqe7077kn-affinity-frontloader-electric-dryer-washing-machine-70-cubic-feet-21486932.jpg",
+                  "price": 589,
+                  "title": "Washing Machine",
+                }
+              }
+              unit="Quantity"
+            />
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "refrigerator",
+                  "image": "https://www.ikea.com/ca/en/images/products/lagan-top-freezer-white__0530524_PE646734_S4.JPG",
+                  "price": 650,
+                  "title": "Refrigerator",
+                }
+              }
+              unit="Quantity"
+            />
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "tv",
+                  "image": "https://thegoodguys.sirv.com/products/50047364/50047364_508160.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true",
+                  "price": 1200,
+                  "title": "Television",
+                }
+              }
+              unit="Quantity"
+            />
+            <Connect(withHandlers(Product))
+              productDetail={
+                Object {
+                  "id": "deep_freezere",
+                  "image": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12353/12353893.jpg",
+                  "price": 425,
+                  "title": "Deep Freezer",
+                }
+              }
+              unit="Quantity"
+            />
+          </ForwardRef>,
+          <Button
+            onClick={[Function]}
+            squared={false}
+            style={
+              Object {
+                "float": "right",
+              }
+            }
+          >
+            Checkout
+          </Button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "centered": true,
+            "children": "Product catalogue",
+            "size": "md",
+            "wrapperTag": "h1",
+          },
+          "ref": null,
+          "rendered": "Product catalogue",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "WithTheme(MarketingHeading)",
+            "render": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Connect(withHandlers(Product))
+                productDetail={
+                  Object {
+                    "id": "sofa",
+                    "image": "https://hips.hearstapps.com/edc.h-cdn.co/assets/16/38/blue-sofa-joybird_1.jpg",
+                    "price": 325,
+                    "title": "Sofa",
+                  }
+                }
+                unit="Quantity"
+              />,
+              <Connect(withHandlers(Product))
+                productDetail={
+                  Object {
+                    "id": "dishwasher",
+                    "image": "https://www.ikea.com/ca/en/images/products/lagan-built-in-dishwasher-white__0539685_PE653659_S4.JPG",
+                    "price": 799,
+                    "title": "Dishwasher",
+                  }
+                }
+                unit="Quantity"
+              />,
+              <Connect(withHandlers(Product))
+                productDetail={
+                  Object {
+                    "id": "washing_machine",
+                    "image": "http://www.washing-machine-wizard.com/images/frigidaire-faqe7077kn-affinity-frontloader-electric-dryer-washing-machine-70-cubic-feet-21486932.jpg",
+                    "price": 589,
+                    "title": "Washing Machine",
+                  }
+                }
+                unit="Quantity"
+              />,
+              <Connect(withHandlers(Product))
+                productDetail={
+                  Object {
+                    "id": "refrigerator",
+                    "image": "https://www.ikea.com/ca/en/images/products/lagan-top-freezer-white__0530524_PE646734_S4.JPG",
+                    "price": 650,
+                    "title": "Refrigerator",
+                  }
+                }
+                unit="Quantity"
+              />,
+              <Connect(withHandlers(Product))
+                productDetail={
+                  Object {
+                    "id": "tv",
+                    "image": "https://thegoodguys.sirv.com/products/50047364/50047364_508160.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true",
+                    "price": 1200,
+                    "title": "Television",
+                  }
+                }
+                unit="Quantity"
+              />,
+              <Connect(withHandlers(Product))
+                productDetail={
+                  Object {
+                    "id": "deep_freezere",
+                    "image": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12353/12353893.jpg",
+                    "price": 425,
+                    "title": "Deep Freezer",
+                  }
+                }
+                unit="Quantity"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "sofa",
+              "nodeType": "class",
+              "props": Object {
+                "productDetail": Object {
+                  "id": "sofa",
+                  "image": "https://hips.hearstapps.com/edc.h-cdn.co/assets/16/38/blue-sofa-joybird_1.jpg",
+                  "price": 325,
+                  "title": "Sofa",
+                },
+                "unit": "Quantity",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "dishwasher",
+              "nodeType": "class",
+              "props": Object {
+                "productDetail": Object {
+                  "id": "dishwasher",
+                  "image": "https://www.ikea.com/ca/en/images/products/lagan-built-in-dishwasher-white__0539685_PE653659_S4.JPG",
+                  "price": 799,
+                  "title": "Dishwasher",
+                },
+                "unit": "Quantity",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "washing_machine",
+              "nodeType": "class",
+              "props": Object {
+                "productDetail": Object {
+                  "id": "washing_machine",
+                  "image": "http://www.washing-machine-wizard.com/images/frigidaire-faqe7077kn-affinity-frontloader-electric-dryer-washing-machine-70-cubic-feet-21486932.jpg",
+                  "price": 589,
+                  "title": "Washing Machine",
+                },
+                "unit": "Quantity",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "refrigerator",
+              "nodeType": "class",
+              "props": Object {
+                "productDetail": Object {
+                  "id": "refrigerator",
+                  "image": "https://www.ikea.com/ca/en/images/products/lagan-top-freezer-white__0530524_PE646734_S4.JPG",
+                  "price": 650,
+                  "title": "Refrigerator",
+                },
+                "unit": "Quantity",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "tv",
+              "nodeType": "class",
+              "props": Object {
+                "productDetail": Object {
+                  "id": "tv",
+                  "image": "https://thegoodguys.sirv.com/products/50047364/50047364_508160.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true",
+                  "price": 1200,
+                  "title": "Television",
+                },
+                "unit": "Quantity",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "deep_freezere",
+              "nodeType": "class",
+              "props": Object {
+                "productDetail": Object {
+                  "id": "deep_freezere",
+                  "image": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12353/12353893.jpg",
+                  "price": 425,
+                  "title": "Deep Freezer",
+                },
+                "unit": "Quantity",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-VigVT",
+              "isStatic": false,
+              "rules": Array [
+                "
+  margin: ",
+                [Function],
+                " 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  ",
+                [Function],
+                "
+",
+              ],
+            },
+            "displayName": "styled.ul",
+            "render": [Function],
+            "styledComponentId": "sc-VigVT",
+            "target": "ul",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Checkout",
+            "onClick": [Function],
+            "squared": false,
+            "style": Object {
+              "float": "right",
+            },
+          },
+          "ref": null,
+          "rendered": "Checkout",
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-fjdhpX",
+          "isStatic": false,
+          "rules": Array [
+            "
+  padding: ",
+            [Function],
+            ";
+  margin: ",
+            [Function],
+            ";
+  ",
+            [Function],
+            "
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "render": [Function],
+        "styledComponentId": "sc-fjdhpX",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

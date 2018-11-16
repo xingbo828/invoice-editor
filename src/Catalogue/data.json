@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sofa",
+    "title": "Sofa",
+    "price": 325,
+    "image": "https://hips.hearstapps.com/edc.h-cdn.co/assets/16/38/blue-sofa-joybird_1.jpg"
+  },
+  {
+    "id": "dishwasher",
+    "title": "Dishwasher",
+    "price": 799,
+    "image": "https://www.ikea.com/ca/en/images/products/lagan-built-in-dishwasher-white__0539685_PE653659_S4.JPG"
+  },
+  {
+    "id": "washing_machine",
+    "title": "Washing Machine",
+    "price": 589,
+    "image": "http://www.washing-machine-wizard.com/images/frigidaire-faqe7077kn-affinity-frontloader-electric-dryer-washing-machine-70-cubic-feet-21486932.jpg"
+  },
+  {
+    "id": "refrigerator",
+    "title": "Refrigerator",
+    "price": 650,
+    "image": "https://www.ikea.com/ca/en/images/products/lagan-top-freezer-white__0530524_PE646734_S4.JPG"
+  },
+  {
+    "id": "tv",
+    "title": "Television",
+    "price": 1200,
+    "image": "https://thegoodguys.sirv.com/products/50047364/50047364_508160.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true"
+  },
+  {
+    "id": "deep_freezere",
+    "title": "Deep Freezer",
+    "price": 425,
+    "image": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/123/12353/12353893.jpg"
+  }
+]

@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Product
+    handleChange={[Function]}
+    productDetail={
+      Object {
+        "image": "B",
+        "price": 25,
+        "title": "A",
+      }
+    }
+    quantity={3}
+    unit="Qty"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef
+          src="B"
+        />,
+        <ForwardRef>
+          A
+        </ForwardRef>,
+        <ForwardRef>
+          $
+          25
+        </ForwardRef>,
+        <NumberField
+          label=""
+          onChange={[Function]}
+          placeholder=""
+          unit="Qty"
+          value={3}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "src": "B",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": false,
+            "rules": Array [
+              "
+  margin: 0 auto 1.5rem;
+  width: 100%;
+  height: 100px;
+  background: url('",
+              [Function],
+              "') center center no-repeat;
+  background-size: contain;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "A",
+        },
+        "ref": null,
+        "rendered": "A",
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "rules": Array [
+              "
+  padding: 0 0 1rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "$",
+            25,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "$",
+          25,
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "rules": Array [
+              "
+  padding: 0 0 1rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "label": "",
+          "onChange": [Function],
+          "placeholder": "",
+          "unit": "Qty",
+          "value": 3,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 2rem;
+  box-shadow: ",
+          [Function],
+          ";
+  border-radius: 4px;
+  ",
+          [Function],
+          "
+",
+        ],
+      },
+      "displayName": "styled.li",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "li",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef
+            src="B"
+          />,
+          <ForwardRef>
+            A
+          </ForwardRef>,
+          <ForwardRef>
+            $
+            25
+          </ForwardRef>,
+          <NumberField
+            label=""
+            onChange={[Function]}
+            placeholder=""
+            unit="Qty"
+            value={3}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "src": "B",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "rules": Array [
+                "
+  margin: 0 auto 1.5rem;
+  width: 100%;
+  height: 100px;
+  background: url('",
+                [Function],
+                "') center center no-repeat;
+  background-size: contain;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "A",
+          },
+          "ref": null,
+          "rendered": "A",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bwzfXH",
+              "isStatic": false,
+              "rules": Array [
+                "
+  padding: 0 0 1rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bwzfXH",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "$",
+              25,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "$",
+            25,
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": false,
+              "rules": Array [
+                "
+  padding: 0 0 1rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "label": "",
+            "onChange": [Function],
+            "placeholder": "",
+            "unit": "Qty",
+            "value": 3,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "rules": Array [
+            "
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 2rem;
+  box-shadow: ",
+            [Function],
+            ";
+  border-radius: 4px;
+  ",
+            [Function],
+            "
+",
+          ],
+        },
+        "displayName": "styled.li",
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "li",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

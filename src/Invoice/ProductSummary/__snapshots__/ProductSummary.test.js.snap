@@ -1,0 +1,981 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductSummary
+    handleRemove={[Function]}
+    products={
+      Array [
+        Object {
+          "product": Object {
+            "id": "a",
+            "price": 25,
+            "title": "a",
+          },
+          "quantity": 2,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef>
+          <span>
+            Item
+          </span>
+          <span>
+            Qty
+          </span>
+          <span>
+            Price
+          </span>
+          <span>
+            Total
+          </span>
+          <span>
+            Action
+          </span>
+        </ForwardRef>,
+        Array [
+          <ForwardRef>
+            <span>
+              <Link
+                replace={false}
+                to="/catalogue"
+              >
+                a
+              </Link>
+            </span>
+            <span>
+              2
+            </span>
+            <span>
+              $
+              25
+            </span>
+            <span>
+              $
+              50
+            </span>
+            <span>
+              <Button
+                danger={true}
+                small={true}
+                squared={false}
+              >
+                <Icon
+                  icon="trash"
+                  size="lg"
+                  tag="i"
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  Remove
+                </span>
+              </Button>
+            </span>
+          </ForwardRef>,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <span>
+              Item
+            </span>,
+            <span>
+              Qty
+            </span>,
+            <span>
+              Price
+            </span>,
+            <span>
+              Total
+            </span>,
+            <span>
+              Action
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Item",
+            },
+            "ref": null,
+            "rendered": "Item",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Qty",
+            },
+            "ref": null,
+            "rendered": "Qty",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Price",
+            },
+            "ref": null,
+            "rendered": "Price",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Total",
+            },
+            "ref": null,
+            "rendered": "Total",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Action",
+            },
+            "ref": null,
+            "rendered": "Action",
+            "type": "span",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": false,
+            "rules": Array [
+              "
+  font-weight: ",
+              [Function],
+              ";
+  display: flex;
+  justify-content: space-between;
+  padding: ",
+              [Function],
+              " 0;
+  align-items: center;
+  font-size: 1.25rem;
+  border-bottom: 1px solid ",
+              [Function],
+              ";
+  > * {
+    flex: 1;
+  }
+",
+              "
+  font-weight: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(styled.li)",
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "li",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": "a",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <span>
+              <Link
+                replace={false}
+                to="/catalogue"
+              >
+                a
+              </Link>
+            </span>,
+            <span>
+              2
+            </span>,
+            <span>
+              $
+              25
+            </span>,
+            <span>
+              $
+              50
+            </span>,
+            <span>
+              <Button
+                danger={true}
+                small={true}
+                squared={false}
+              >
+                <Icon
+                  icon="trash"
+                  size="lg"
+                  tag="i"
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  Remove
+                </span>
+              </Button>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/catalogue"
+              >
+                a
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "a",
+                "replace": false,
+                "to": "/catalogue",
+              },
+              "ref": null,
+              "rendered": "a",
+              "type": [Function],
+            },
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2,
+            },
+            "ref": null,
+            "rendered": 2,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "$",
+                25,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "$",
+              25,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "$",
+                50,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "$",
+              50,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Button
+                danger={true}
+                small={true}
+                squared={false}
+              >
+                <Icon
+                  icon="trash"
+                  size="lg"
+                  tag="i"
+                />
+                <span
+                  style={
+                    Object {
+                      "display": "none",
+                    }
+                  }
+                >
+                  Remove
+                </span>
+              </Button>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Icon
+                    icon="trash"
+                    size="lg"
+                    tag="i"
+                  />,
+                  <span
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                  >
+                    Remove
+                  </span>,
+                ],
+                "danger": true,
+                "onClick": undefined,
+                "small": true,
+                "squared": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": "trash",
+                    "size": "lg",
+                    "tag": "i",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Remove",
+                    "style": Object {
+                      "display": "none",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Remove",
+                  "type": "span",
+                },
+              ],
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "rules": Array [
+              "
+  font-weight: ",
+              [Function],
+              ";
+  display: flex;
+  justify-content: space-between;
+  padding: ",
+              [Function],
+              " 0;
+  align-items: center;
+  font-size: 1.25rem;
+  border-bottom: 1px solid ",
+              [Function],
+              ";
+  > * {
+    flex: 1;
+  }
+",
+            ],
+          },
+          "displayName": "styled.li",
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "li",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": true,
+        "rules": Array [
+          "
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 800px;
+",
+        ],
+      },
+      "displayName": "styled.ul",
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "ul",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef>
+            <span>
+              Item
+            </span>
+            <span>
+              Qty
+            </span>
+            <span>
+              Price
+            </span>
+            <span>
+              Total
+            </span>
+            <span>
+              Action
+            </span>
+          </ForwardRef>,
+          Array [
+            <ForwardRef>
+              <span>
+                <Link
+                  replace={false}
+                  to="/catalogue"
+                >
+                  a
+                </Link>
+              </span>
+              <span>
+                2
+              </span>
+              <span>
+                $
+                25
+              </span>
+              <span>
+                $
+                50
+              </span>
+              <span>
+                <Button
+                  danger={true}
+                  small={true}
+                  squared={false}
+                >
+                  <Icon
+                    icon="trash"
+                    size="lg"
+                    tag="i"
+                  />
+                  <span
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                  >
+                    Remove
+                  </span>
+                </Button>
+              </span>
+            </ForwardRef>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <span>
+                Item
+              </span>,
+              <span>
+                Qty
+              </span>,
+              <span>
+                Price
+              </span>,
+              <span>
+                Total
+              </span>,
+              <span>
+                Action
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Item",
+              },
+              "ref": null,
+              "rendered": "Item",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Qty",
+              },
+              "ref": null,
+              "rendered": "Qty",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Price",
+              },
+              "ref": null,
+              "rendered": "Price",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Total",
+              },
+              "ref": null,
+              "rendered": "Total",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Action",
+              },
+              "ref": null,
+              "rendered": "Action",
+              "type": "span",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "rules": Array [
+                "
+  font-weight: ",
+                [Function],
+                ";
+  display: flex;
+  justify-content: space-between;
+  padding: ",
+                [Function],
+                " 0;
+  align-items: center;
+  font-size: 1.25rem;
+  border-bottom: 1px solid ",
+                [Function],
+                ";
+  > * {
+    flex: 1;
+  }
+",
+                "
+  font-weight: ",
+                [Function],
+                ";
+",
+              ],
+            },
+            "displayName": "Styled(styled.li)",
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "li",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": "a",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <span>
+                <Link
+                  replace={false}
+                  to="/catalogue"
+                >
+                  a
+                </Link>
+              </span>,
+              <span>
+                2
+              </span>,
+              <span>
+                $
+                25
+              </span>,
+              <span>
+                $
+                50
+              </span>,
+              <span>
+                <Button
+                  danger={true}
+                  small={true}
+                  squared={false}
+                >
+                  <Icon
+                    icon="trash"
+                    size="lg"
+                    tag="i"
+                  />
+                  <span
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                  >
+                    Remove
+                  </span>
+                </Button>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="/catalogue"
+                >
+                  a
+                </Link>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "a",
+                  "replace": false,
+                  "to": "/catalogue",
+                },
+                "ref": null,
+                "rendered": "a",
+                "type": [Function],
+              },
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2,
+              },
+              "ref": null,
+              "rendered": 2,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "$",
+                  25,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "$",
+                25,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "$",
+                  50,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "$",
+                50,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Button
+                  danger={true}
+                  small={true}
+                  squared={false}
+                >
+                  <Icon
+                    icon="trash"
+                    size="lg"
+                    tag="i"
+                  />
+                  <span
+                    style={
+                      Object {
+                        "display": "none",
+                      }
+                    }
+                  >
+                    Remove
+                  </span>
+                </Button>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Icon
+                      icon="trash"
+                      size="lg"
+                      tag="i"
+                    />,
+                    <span
+                      style={
+                        Object {
+                          "display": "none",
+                        }
+                      }
+                    >
+                      Remove
+                    </span>,
+                  ],
+                  "danger": true,
+                  "onClick": undefined,
+                  "small": true,
+                  "squared": false,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "icon": "trash",
+                      "size": "lg",
+                      "tag": "i",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Remove",
+                      "style": Object {
+                        "display": "none",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "Remove",
+                    "type": "span",
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": false,
+              "rules": Array [
+                "
+  font-weight: ",
+                [Function],
+                ";
+  display: flex;
+  justify-content: space-between;
+  padding: ",
+                [Function],
+                " 0;
+  align-items: center;
+  font-size: 1.25rem;
+  border-bottom: 1px solid ",
+                [Function],
+                ";
+  > * {
+    flex: 1;
+  }
+",
+              ],
+            },
+            "displayName": "styled.li",
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "li",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "rules": Array [
+            "
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 800px;
+",
+          ],
+        },
+        "displayName": "styled.ul",
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "ul",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
